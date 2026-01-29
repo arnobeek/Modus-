@@ -121,10 +121,10 @@ export default function Home() {
                     </div>
                     
                 </div>
-                <button className="border w-60 px-1 py-2 text-lg font-medium bg-green-600 text-white hover:cursor-pointer hover:scale-105 transition-all duration-300">EXPLORE JOURNEYS</button>
+                <button className="border w-60 px-1 py-2 text-lg font-medium bg-[#3a5a40] text-white hover:cursor-pointer hover:scale-105 transition-all duration-300">EXPLORE JOURNEYS</button>
             </div>
             <div className="px-25 mb-10">
-                <p className="text-5xl mb-20 text-green-600">  Discover East Africa's Hidden <br /> Treasures </p>
+                <p className="text-5xl mb-20 text-[#3a5a40]">  Discover East Africa's Hidden <br /> Treasures </p>
                 <div className="grid grid-cols-2">
                     {
                         treasures.map(treasure => (
@@ -140,7 +140,7 @@ export default function Home() {
                     }
 
                 </div>
-                <button className="flex gap-2 justify-self-center border px-6 py-2 bg-green-600 text-white text-lg hover:cursor-pointer hover:justify-between hover:gap-4 hover:scale-105 transition-all duration-300" onClick={() => navigate("/destinations")}>DISCOVER MORE <span>&gt;</span></button>
+                <button className="flex gap-2 justify-self-center border px-6 py-2 bg-[#3a5a40] text-white text-lg hover:cursor-pointer hover:justify-between hover:gap-4 hover:scale-105 transition-all duration-300" onClick={() => navigate("/destinations")}>DISCOVER MORE <span>&gt;</span></button>
             </div>
 
             <Footer />

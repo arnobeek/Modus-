@@ -14,7 +14,7 @@ export default function Navbar(){
                 
                     <img src={logo} className="w-12"/>
                     <h1 className="text-2xl font-extrabold 
-                    text-green-600">MODUS</h1>
+                    text-[#3a5a40]">MODUS</h1>
                 
             </div>
             </Link>

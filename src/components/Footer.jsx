@@ -35,7 +35,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className='flex flex-col justify-between gap-3 text-sm'>
-                    <p className="text-gray-900">DESTINATIONS</p>
+                    <p className="text-black">DESTINATIONS</p>
                     <Link className="text-white">Uganda</Link>
                     <Link className="text-white">Kenya</Link>
                     <Link className="text-white">Tanzania</Link>
@@ -43,7 +43,7 @@ export default function Footer() {
                     <Link className="text-white">Zambia</Link>
                 </div>
                 <div className='flex flex-col justify-between gap-3 text-sm'>
-                    <p className="text-gray-900">COMPANY</p>
+                    <p className="text-black">COMPANY</p>
                     <Link className="text-white">About Us</Link>
                     <Link className="text-white">Sustainability</Link>
                     <Link className="text-white">Travel Advisors</Link>
@@ -51,17 +51,17 @@ export default function Footer() {
                     <Link className="text-white">Stories</Link>
                 </div>
                 <div className='flex flex-col justify-between gap-3 text-sm'>
-                    <p className="text-gray-900">CONTACT</p>
+                    <p className="text-black">CONTACT</p>
                     <div>
-                        <p className='text-gray-900'>PHONE</p>
+                        <p className='text-black'>PHONE</p>
                         <p className="text-white"><a>+256-756-733-094</a></p>
                     </div>
                     <div>
-                        <p className='text-gray-900'>EMAIL</p>
+                        <p className='text-black'>EMAIL</p>
                         <p className="text-white"><a href="mailto:journeys@modussafaris.com">journeys@modussafaris.com</a></p>
                     </div>
                     <div>
-                        <p className='text-gray-900'>OFFICE</p>
+                        <p className='text-black'>OFFICE</p>
                         <p className="text-white">Mbarara, Uganda</p>
                     </div>
                 </div>
