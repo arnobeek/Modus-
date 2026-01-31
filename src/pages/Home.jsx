@@ -54,22 +54,7 @@ export default function Home() {
             location:'Uganda',
             info:'Trek through ancient rainforest to encounter endangered mountain gorillas in their natural habitat—an experience that changes lives.',
             image:'https://images.unsplash.com/photo-1553521306-9387d3795516?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFrZSUyMG1idXJvfGVufDB8fDB8fHww'
-        },
-        {
-            id:5,
-            name:'Masai Mara National Reserve',
-            location:'Kenya',
-            info:'Trek through ancient rainforest to encounter endangered mountain gorillas in their natural habitat—an experience that changes lives.',
-            image:'https://images.unsplash.com/photo-1554990772-0bea55d510d5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bWFzYWklMjBtYXJhfGVufDB8fDB8fHww'
-        },
-        {
-            id:6,
-            name:'Serengeti Migration',
-            location:'Tanzania',
-            info:'Witness the greatest wildlife spectacle on Earth as millions of wildebeest thunder across the endless plains.',
-            image:'https://images.unsplash.com/photo-1580145575237-75fec2a0320b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2VyZW5nZXRpfGVufDB8fDB8fHww'
-        },
-        
+        },       
         
     ]
 
@@ -79,11 +64,11 @@ export default function Home() {
         <div>
             <div className="flex justify-center h-[110vh] hero-image-home  ">
                 <div className="flex flex-col justify-center text-white items-center w-250">
-                    <p className="font-bold text-8xl">East Africa, <br />Reimagined</p>
-                    <p className="text-4xl mt-10">Discover East Africa's misty mountains, ancient forests, and extraordinary wildlife through bespoke luxury safaris.</p>
+                    <p className="font-bold text-8xl">Uganda, <br />Reimagined</p>
+                    <p className="text-4xl mt-10">Discover Uganda's misty mountains, ancient forests, and extraordinary wildlife through bespoke luxury safaris.</p>
                 </div>
             </div>
-            <div className="flex flex-col gap-10 h-[60vh] shadow z-50 justify-self-center w-320 -mt-20 bg-gray-100 px-8 py-10 mb-20">
+            <div className="flex flex-col gap-10 h-[60vh] shadow z-50 justify-self-center w-10/11 -mt-20 bg-gray-100 px-8 py-10 mb-20">
                 <div>
                     <p className="text-4xl font-medium text-gray-900">Tailor-Made Journey</p>
                     <p className="text-gray-600">Design your perfect East African adventure</p>
@@ -121,7 +106,7 @@ export default function Home() {
                     </div>
                     
                 </div>
-                <button className="border w-60 px-1 py-2 text-lg font-medium bg-[#3a5a40] text-white hover:cursor-pointer hover:scale-105 transition-all duration-300">EXPLORE JOURNEYS</button>
+                <button className="w-60 px-1 py-2 text-lg shadow font-medium bg-[#3a5a40] text-white hover:cursor-pointer hover:scale-105 transition-all duration-300">EXPLORE JOURNEYS</button>
             </div>
             <div className="px-25 mb-10">
                 <p className="text-5xl mb-20 text-[#3a5a40]">  Discover East Africa's Hidden <br /> Treasures </p>
@@ -140,7 +125,7 @@ export default function Home() {
                     }
 
                 </div>
-                <button className="flex gap-2 justify-self-center border px-6 py-2 bg-[#3a5a40] text-white text-lg hover:cursor-pointer hover:justify-between hover:gap-4 hover:scale-105 transition-all duration-300" onClick={() => navigate("/destinations")}>DISCOVER MORE <span>&gt;</span></button>
+                <button className="flex gap-2 justify-self-center px-6 py-2 bg-[#3a5a40] shadow text-white text-lg hover:cursor-pointer hover:justify-between hover:gap-4 hover:scale-105 transition-all duration-300" onClick={() => navigate("/destinations")}>DISCOVER MORE <span>&gt;</span></button>
             </div>
 
             <Footer />

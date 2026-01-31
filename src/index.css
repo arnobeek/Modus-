@@ -17,7 +17,7 @@
         color: black;
     }
     100%{
-        background-color: rgb(43, 151, 43);
+        background-color: #3a5a40;
         color: whitesmoke;
         border: none;
         
@@ -31,6 +31,12 @@
 }
 .hero-image-destination{
     background-image: url('../src/assets/heroimagedestination.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-image-experiences{
+    background-image: url('../src/assets/heroimageexperiences.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
